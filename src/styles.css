@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  display: inline;
+}
+
+.weather-app {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 40px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(79, 146, 7, 0.8));
+  max-width: 1000px;
+}
+
+.search-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.current-weather {
+  padding-bottom: 20px;
+}
+
+.temperature {
+  font-size: 64px;
+}
+
+.weather-icon {
+  height: 76px;
+  margin-right: 20px;
+}
+
+.units {
+  position: relative;
+  top: -36px;
+}
+
+.sub-img {
+  max-width: 30px;
+}
+
+.indexes-img {
+  max-width: 20px;
+}
+
+.wind {
+  color: white;
+}
+
+.to-middle {
+  text-align: center;
+}
+
+.indexes,
+.forecast {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.daily-forecast {
+  border: solid 2px white;
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px 5px rgb(45, 54, 47);
+  margin: 10px;
+  padding: 20px 0px;
+}
+
+.indexes-data {
+  border: solid 2px white;
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px 5px rgb(45, 54, 47);
+  margin: 10px;
+  padding: 20px 0px;
+}
